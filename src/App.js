@@ -3,15 +3,17 @@ import './App.css';
 import Header from '../src/Components/Layout/header.js';
 import Footer from '../src/Components/Layout/footer.js';
 import Home from '../src/Components/Home/index.js';
+import About from '../src/Components/About/About.js';
 
 function App() {
   return (
     <>
     <Header/>
-    <div className="App">
+    {/* <div className="App">
       <img src={logo}></img>
-    </div>
+    </div> */}
     <Home/>
+    <About/>
     <Footer/>
     </>
   );
