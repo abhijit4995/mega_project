@@ -8,7 +8,7 @@ const index = () => {
     <>
     <Carousel>
       <Carousel.Item>
-        <img src={Banner} width="100%"></img>
+        <img src={Banner1} width="100%"></img>
         <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -22,7 +22,7 @@ const index = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <img src={Banner} width="100%"></img>
+      <img src={Banner1} width="100%"></img>
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>

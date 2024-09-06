@@ -4,6 +4,9 @@ import Header from '../src/Components/Layout/header.js';
 import Footer from '../src/Components/Layout/footer.js';
 import Home from '../src/Components/Home/index.js';
 import About from '../src/Components/About/About.js';
+import Product from '../src/Components/Product/Product.js';
+import contact from '../src/Components/contact/contact.js';
+
 
 function App() {
   return (
@@ -14,6 +17,8 @@ function App() {
     </div> */}
     <Home/>
     <About/>
+    <Product/>
+    <contact/>
     <Footer/>
     </>
   );
