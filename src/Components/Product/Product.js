@@ -1,4 +1,5 @@
 import React from 'react'
+import Header from '../Layout/header';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Button from 'react-bootstrap/Button';
@@ -9,6 +10,7 @@ import lap3 from '../../assests/lap3.jpg';
 const Product = () => {
   return (
     <>
+    <Header />
     <div>Product</div>
     <CardGroup>
     <Card style={{ width: '18rem' }}>

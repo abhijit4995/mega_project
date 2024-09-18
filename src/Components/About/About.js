@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from '../Layout/header';
 import profile from '../../assests/pro.jpg'
 import profile1 from '../../assests/pro1.jpg'
 import profile2 from '../../assests/pro2.jpg'
@@ -7,6 +8,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 const About = () => {
   return (
     <>
+    <Header/>
     <Container fluid>
       <div class="justify-content-center">
       <Row>

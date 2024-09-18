@@ -1,11 +1,13 @@
 import React from 'react';
 import Banner from '../../assests/Lambo.jpg'
+import Header from '../Layout/header';
 import Banner1 from '../../assests/Bently.jpg'
 import Carousel from 'react-bootstrap/Carousel';
  
 const index = () => {
   return (
-    <>
+  <>
+    <Header/>
     <Carousel>
       <Carousel.Item>
         <img src={Banner1} width="100%"></img>

@@ -1,3 +1,5 @@
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import logo from '../src/assests/logo.jpg';
 import './App.css';
 import Header from '../src/Components/Layout/header.js';
@@ -11,17 +13,19 @@ import Contact from '../src/Components/contact/contact.js';
 function App() {
   return (
     <>
-    <Header/>
-    {/* <div className="App">
-      <img src={logo}></img>
-    </div> */}
-    <Home/>
-    <About/>
-    <Product/>
-    <Contact/>
-    <Footer/>
+    <BrowserRouter>
+    <Routes>
+    <Route path="/" element={<Home/>} />
+    <Route path="/header" element={<Header/>} />
+    <Route path="/about" element={<About/>} />
+    <Route path="/product" element={<Product/>} />
+    <Route path="/contact" element={<Contact/>} />
+    <Route path="/footer" element={<Footer/>} />
+    </Routes>
+    </BrowserRouter>
     </>
   );
 }
+
 
 export default App;
