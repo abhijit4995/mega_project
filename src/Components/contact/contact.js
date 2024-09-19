@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../Layout/header';
+import Footer from '../Layout/footer';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
@@ -9,7 +10,7 @@ const Contact = () => {
   return (
     <>
     <Header />
-    <h2>Contact</h2>
+    <h2><center>Contact Us</center></h2>
     <Row>
         <Form.Label column="lg" lg={2}>
           Name :
@@ -49,6 +50,7 @@ const Contact = () => {
       <Button type="submit" className="mb-2">
             Submit
       </Button>
+      <Footer/>
     </>
   )
 }

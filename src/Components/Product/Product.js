@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../Layout/header';
+import Footer from '../Layout/footer';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Button from 'react-bootstrap/Button';
@@ -11,7 +12,7 @@ const Product = () => {
   return (
     <>
     <Header />
-    <div>Product</div>
+    <h2><center>Products</center></h2>
     <CardGroup>
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={lap111} />
@@ -117,6 +118,7 @@ const Product = () => {
       </Card.Body>
     </Card>
     </CardGroup>
+    <Footer/>
     </>
   )
 }
