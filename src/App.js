@@ -13,6 +13,7 @@ import Contact from '../src/Components/contact/contact.js';
 function App() {
   return (
     <>
+    
     <BrowserRouter>
     <Routes>
     <Route path="/" element={<Home/>} />
@@ -23,6 +24,7 @@ function App() {
     <Route path="/footer" element={<Footer/>} />
     </Routes>
     </BrowserRouter>
+
     </>
   );
 }
