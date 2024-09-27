@@ -8,6 +8,7 @@ import Home from '../src/Components/Home/index.js';
 import About from '../src/Components/About/About.js';
 import Product from '../src/Components/Product/Product.js';
 import Contact from '../src/Components/contact/contact.js';
+import Login from '../src/Components/Form/login.js'
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
     <Route path="/product" element={<Product/>} />
     <Route path="/contact" element={<Contact/>} />
     <Route path="/footer" element={<Footer/>} />
+    <Route path="/login" element={<Login/>} />
+    
     </Routes>
     </BrowserRouter>
 
