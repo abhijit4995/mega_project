@@ -9,6 +9,7 @@ import About from '../src/Components/About/About.js';
 import Product from '../src/Components/Product/Product.js';
 import Contact from '../src/Components/contact/contact.js';
 import Login from '../src/Components/Form/login.js'
+import Registration from '../src/Components/Form/registration.js'
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
     <Route path="/contact" element={<Contact/>} />
     <Route path="/footer" element={<Footer/>} />
     <Route path="/login" element={<Login/>} />
-    
+    <Route path="/registration" element={<Registration/>} />
     </Routes>
     </BrowserRouter>
 
