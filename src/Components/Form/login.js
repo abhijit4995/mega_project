@@ -15,12 +15,12 @@ import {
 const login = () => {
   return (
     <>
-    <MDBContainer fluid>
+    <MDBContainer fluid className='d-flex align-items-center justify-content-center bg-image' style={{backgroundImage: 'url(https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp)'}}>
 
 <MDBRow className='d-flex justify-content-center align-items-center h-100'>
   <MDBCol col='12'>
 
-    <MDBCard className='bg-white my-5 mx-auto' style={{borderRadius: '1rem', maxWidth: '500px'}}>
+    <MDBCard className='bg-white m-5' style={{Width: '500px'}}>
       <MDBCardBody className='p-5 w-100 d-flex flex-column'>
 
         <h2 className="fw-bold mb-2 text-center">Sign in</h2>

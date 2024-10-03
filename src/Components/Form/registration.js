@@ -15,7 +15,7 @@ function App() {
       <div className='mask gradient-custom-3'></div>
       <MDBCard className='m-5' style={{maxWidth: '600px'}}>
         <MDBCardBody className='px-5'>
-          <h2 className="text-uppercase text-center mb-5">Create an account</h2>
+          <h2 className="fw-bold text-center mb-5">Create An Account</h2>
           <MDBInput wrapperClass='mb-4' label='Your Name' size='lg' id='form1' type='text'/>
           <MDBInput wrapperClass='mb-4' label='Your Email' size='lg' id='form2' type='email'/>
           <MDBInput wrapperClass='mb-4' label='Password' size='lg' id='form3' type='password'/>
